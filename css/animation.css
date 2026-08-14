@@ -1,0 +1,42 @@
+.animation-parent {
+	overflow: hidden;
+}
+
+.animation_home_slide_img {
+	transform: translateY(120%);
+}
+
+.animation_home_slide_img.animation_run {
+	animation-duration: 1.2s;
+	animation-fill-mode: forwards;
+	animation-name: animation_home_slide_img;
+}
+@keyframes animation_home_slide_img {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+
+.animation_fade {
+	opacity: 0;
+}
+
+.animation_fade.animation_run {
+	animation-duration: 1.1s;
+	animation-fill-mode: forwards;
+	animation-name: animation_fade;	
+}
+@keyframes animation_fade {
+	0% {
+		opacity: 0;
+	}
+	70% {
+		opacity: 0.5;
+	}	
+	100% {
+		opacity: 1;
+	}
+}

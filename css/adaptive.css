@@ -1,0 +1,338 @@
+@media (min-width: 992px) {
+	.container {
+		max-width: calc(100% - 15px);
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1312px;
+		width: calc(100% - 15px);
+	}
+	.container-fluid{
+		max-width: 1680px;
+		width: calc(100% - 15px);
+	}
+}
+
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+	/**
+	* Menu dropdown
+	*/	
+	.header-menu-card {
+		max-height: 230px;
+		overflow: hidden;
+		border-radius: 20px;
+	}
+	/**
+	* End Menu dropdown
+	*/	
+}
+
+@media screen and (max-width: 1120px) {
+
+}
+
+@media screen and (max-width: 1060px) {
+
+}
+
+@media (orientation: landscape) and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+	.card-body {
+		min-height: 120px;
+	}	
+	/**
+	* Menu dropdown
+	*/
+	header {
+		max-height: 100vh;
+		overflow-y: auto;
+	}	
+	header .nav-item .btn-success {
+		margin-bottom: 10px;
+	}
+	#v-pills-tabContent-2 {
+		padding-left: 0;
+		margin-left: 0;
+		border-left: none;
+		border-top: 1px solid #ccc;
+		padding-top: 20px;
+		margin-top: 20px;
+	}	
+	/**
+	* End menu dropdown
+	*/	
+	
+	#navbarSupportedContent {
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-left: -15px;
+		margin-right: -15px;
+		width: calc(100% + 30px);
+		border-top: 1px solid #ccc;
+		margin-top: 18px;
+		padding-bottom: 10px;
+	}
+	#navbarSupportedContent ul li:last-child {
+		width: 100%;
+	}
+	#navbarSupportedContent .btn-success {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		max-width: 240px;			
+	}
+	header .navbar .container {
+		justify-content: center !important;
+	}
+	header .navbar-toggler {
+		position: absolute;
+		right: 15px;
+		top: 12px;
+	}	
+	.navbar-brand {
+		width: 124px;
+		margin-right: 0;
+	}	
+	header .nav-link {
+		font-size: 20px;
+	}
+	header .btn-success {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.violet-section .ball-1, .violet-section .ball-2, .violet-section .ball-3 {
+		display: none;
+	}
+	body{
+		font-size: 16px;
+		line-height: 20px;	
+	}
+	.violet-section h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}	
+	.violet-section h2 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+	.violet-section p {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.violet-section .small{
+		line-height: 22px;
+	}
+	.btn-success {
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 30px;
+	}	
+	.install-section h2 {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 36px;
+	}
+	.colapse-card > h3 {
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.install-section .small {
+		line-height: 20px;
+	}
+	.install-section a {
+		line-height: 30px;
+	}
+	.install-section .small {
+		line-height: 22px;
+	}
+	.violet-section, h2 {
+		font-size: 32px;
+		line-height: 36px;
+	}
+	.card-revoew .h3 {
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 26px;
+	}
+	.card-revoew .h4 {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 22px;
+	}
+	.pay-section h2 {
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 36px;
+	}
+	.price {
+		font-size: 26px;
+		line-height: 72px;
+	}
+	.price span {
+		font-size: 72px;
+	}
+	.big-text {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.pay-section .btn-success{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.system-section h2 {
+		font-size: 32px;
+		line-height: 36px;
+		max-width: 200px;
+		margin-left: auto;
+		margin-right: auto;		
+	}
+	.system-section .h4 {
+		font-size: 20px;
+	}
+	.faq-section h2 {
+		font-size: 32px;
+	}
+	.faq-section .accordion-button {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.faq-section .accordion-body {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.get-section .h2 {
+		font-size: 32px;
+		line-height: 36px;
+	}
+	footer .nav-link {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	footer .small {
+		line-height: 18px;
+	}
+		
+}
+
+@media screen and (max-width: 767px) {
+	
+	/**
+	* Top menus
+	*/ 
+	#v-pills-tabContent {
+		padding-left: 0;
+		margin-left: 0;
+		border-left: none;
+		border-top: 1px solid #ccc;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+	.product_dropdown_parent {
+		padding: 15px;
+	}
+	.product_dropdown_parent img {
+		margin-right: -15px;
+		margin-bottom: -15px;
+	}
+	/**
+	* End top menus
+	*/		
+	
+	.pay-section-img {
+		width: 80%;
+		height: auto;
+	}
+	.system-card {
+		padding-left: 70px;
+	}
+	footer .nav-item {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-logo {
+		width: 134px;
+		height: auto;
+	}
+	.max-400 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.grid-4-carousel .owl-prev, .grid-4-carousel .owl-next {
+		width: 30px;
+		height: 30px;
+	}
+	.grid-4-carousel .owl-prev {
+		left: -44px;	
+	}
+	.grid-4-carousel .owl-next {
+		right: -44px;	
+	}	
+	.grid-4-carousel {
+		max-width: calc(100% - 88px);
+	}
+	.grid-4-carousel .owl-prev span, .grid-4-carousel .owl-next span {
+		font-size: 30px;
+		line-height: 20px;
+	}	
+}
+@media (orientation: landscape) and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 560px) {
+	.install-section .w-100 {
+		width: 70% !important;
+		height: auto !important;
+	}
+	/**
+	* Dropdown menu
+	*/
+	.header-menu-card.big {
+		overflow: hidden;
+		height: 400px;
+		max-height: 400px;
+		position: relative;
+	}
+	.big .card-img-overlay-blog{
+		left: 0;
+		bottom: 10px;
+		top: auto;		
+	}
+	.header-menu-card.big .card-img{
+		height: 400px;
+		width: auto;
+		position: absolute;
+	}
+	/**
+	* End dropdown menu
+	*/	
+}
+
+@media screen and (max-width: 440px) {
+	.home-video iframe {
+		height: 260px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.system-card {
+		padding-left: 50px;
+	}
+	.home-video iframe {
+		height: 200px;
+	}	
+}
